@@ -1,0 +1,30 @@
+### Laravel ###
+/bootstrap/compiled.php
+.env.*.php
+.env.php
+.env
+
+# Dependency directory
+node_modules/
+
+### Composer ###
+composer.phar
+*vendor/
+bin/
+
+### Exclude CSS vendors
+!**/sass/vendor/
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### Public Directory ###
+styles/app.css
+
+### Debugbar ###
+storage/debugbar
+
+.idea/
