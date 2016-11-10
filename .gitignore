@@ -22,7 +22,7 @@ bower_components
 .bower-tmp
 
 ### Public Directory ###
-styles/app.css
+styles/css
 
 ### Debugbar ###
 storage/debugbar

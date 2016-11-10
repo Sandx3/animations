@@ -11,7 +11,7 @@ gulp.task('sass', function () {
       browsers: ['last 2 versions'],
       cascade: false
     }))
-    .pipe(gulp.dest('styles'));
+    .pipe(gulp.dest('styles/css'));
 });
 
 gulp.task('watch', ['sass'], function () {
