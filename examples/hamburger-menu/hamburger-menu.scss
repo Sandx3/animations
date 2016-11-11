@@ -1,6 +1,7 @@
 $hamburger-size: 25px;
 $line-distance: 7px;
 $line-thickness: 4px;
+$hamburger-color: #fff;
 
 .button{
   display: inline-block;
@@ -13,7 +14,7 @@ $line-thickness: 4px;
 .line {
   width: $hamburger-size;
   height: $line-thickness;
-  background-color: black;
+  background-color: $hamburger-color;
 }
 
 .line--1, .line--2, .line--3 {
@@ -30,3 +31,40 @@ $line-thickness: 4px;
 
 @import 'types/fade';
 @import 'types/arrow';
+
+
+// site styles
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #996ebb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+}
+
+.button__container {
+  width: 120px;
+  display: inline-flex;
+  justify-content: space-around;
+  border: 1px solid #a785c1;
+  padding: 20px;
+}
+
+.title,
+.text {
+  color: #fff;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
