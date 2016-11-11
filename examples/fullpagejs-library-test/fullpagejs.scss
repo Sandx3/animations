@@ -1,9 +1,5 @@
-.section--1 {
-  background-color: #7ebb6e;
-}
-
-.section--2 {
-  background-color: #f7a766;
+* {
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .text__container {
@@ -13,6 +9,17 @@
 }
 
 .text {
-  font-family: 'Julius Sans One', sans-serif;
   font-size: 60px;
+}
+
+.link__container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #7ebb6e;
 }
