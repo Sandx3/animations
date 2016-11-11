@@ -1,0 +1,61 @@
+.button--arrow--open-line1 {
+  animation: arrow-open-line-1 .4s;
+  animation-timing-function: ease-out;
+  transform: rotate(-30deg);
+  top: 2px;
+  width: 18px;
+}
+
+.button--arrow--open-line3 {
+  animation: arrow-open-line-3 .4s;
+  animation-timing-function: ease-out;
+  transform: rotate(30deg);
+  top: 12px;
+  width: 18px;
+}
+
+.button--arrow--close-line1 {
+  animation: arrow-close-line-1 .4s;
+  animation-timing-function: ease-out;
+}
+
+.button--arrow--close-line3 {
+  animation: arrow-close-line-3 .4s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes arrow-open-line-1 {
+  0% {transform: rotate(0deg); top: 0px; width: $hamburger-size;}
+  20% {transform: rotate(-5deg); top: 0px; width: ($hamburger-size - 2px);}
+  40% {transform: rotate(-15deg); top: 1px; width: ($hamburger-size - 3px);}
+  60% {transform: rotate(-20deg); top: 1px; width: ($hamburger-size - 4px);}
+  80% {transform: rotate(-25deg); top: 2px; width: ($hamburger-size - 5px);}
+  100% {transform: rotate(-30deg); top: 2px; width: ($hamburger-size - 7px);}
+}
+
+@keyframes arrow-open-line-3 {
+  0% {transform: rotate(0deg); top: 14px; width: $hamburger-size;}
+  20% {transform: rotate(5deg); top: 14px; width: ($hamburger-size - 2px);}
+  40% {transform: rotate(15deg); top: 13px; width: ($hamburger-size - 3px);}
+  60% {transform: rotate(20deg); top: 13px; width: ($hamburger-size - 4px);}
+  80% {transform: rotate(25deg); top: 12px; width: ($hamburger-size - 5px);}
+  100% {transform: rotate(30deg); top: 12px; width: ($hamburger-size - 7px);}
+}
+
+@keyframes arrow-close-line-1 {
+  0% {transform: rotate(-30deg); top: 2px; width: ($hamburger-size - 7px);}
+  20% {transform: rotate(-25deg); top: 2px; width: ($hamburger-size - 5px);}
+  40% {transform: rotate(-20deg); top: 1px; width: ($hamburger-size - 4px);}
+  60% {transform: rotate(-15deg); top: 1px; width: ($hamburger-size - 3px);}
+  80% {transform: rotate(-5deg); top: 0px; width: ($hamburger-size - 2px);}
+  100% {transform: rotate(0deg); top: 0px; width: $hamburger-size;}
+}
+
+@keyframes arrow-close-line-3 {
+  0% {transform: rotate(30deg); top: 12px; width: ($hamburger-size - 7px);}
+  20% {transform: rotate(25deg); top: 12px; width: ($hamburger-size - 5px);}
+  40% {transform: rotate(20deg); top: 13px; width: ($hamburger-size - 4px);}
+  60% {transform: rotate(15deg); top: 13px; width: ($hamburger-size - 3px);}
+  80% {transform: rotate(5deg); top: 14px; width: ($hamburger-size - 2px);}
+  100% {transform: rotate(0deg); top: 14px; width: $hamburger-size;}
+}

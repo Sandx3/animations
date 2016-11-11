@@ -1,0 +1,81 @@
+.button--fade--open-line1 {
+  animation: fade-open-line-1 .4s;
+  animation-timing-function: ease-out;
+  transform: rotate(45deg);
+  top: 7px;
+}
+
+.button--fade--open-line2 {
+  animation: fade-open-line-2 .4s;
+  animation-timing-function: ease-out;
+  opacity: 0;
+}
+
+.button--fade--open-line3 {
+  animation: fade-open-line-3 .4s;
+  animation-timing-function: ease-out;
+  transform: rotate(-45deg);
+  top: 7px;
+}
+
+.button--fade--close-line1 {
+  animation: fade-close-line-1 .4s;
+  animation-timing-function: ease-out;
+}
+
+.button--fade--close-line2 {
+  animation: fade-close-line-2 .4s;
+  animation-timing-function: ease-out;
+}
+
+.button--fade--close-line3 {
+  animation: fade-close-line-3 .4s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fade-open-line-1 {
+  0% {transform: rotate(0deg); top: 0px;}
+  20% {transform: rotate(5deg); top: ($line-distance - 5px);}
+  40% {transform: rotate(10deg); top: ($line-distance - 3);}
+  60% {transform: rotate(20deg); top: ($line-distance - 2px);}
+  80% {transform: rotate(30deg); top: ($line-distance - 1px);}
+  100% {transform: rotate(45deg); top: $line-distance}
+}
+
+@keyframes fade-open-line-2 {
+  0% {opacity: 1}
+  20% {opacity: 0}
+}
+
+@keyframes fade-open-line-3 {
+  0% {transform: rotate(0deg); top: ($line-distance * 2);}
+  20% {transform: rotate(-5deg); top: ($line-distance + 5px);}
+  40% {transform: rotate(-10deg); top: ($line-distance + 3px);}
+  60% {transform: rotate(-20deg); top: ($line-distance + 2px);}
+  80% {transform: rotate(-30deg); top: ($line-distance + 1px);}
+  100% {transform: rotate(-45deg); top: $line-distance;}
+}
+
+@keyframes fade-close-line-1 {
+  0% {transform: rotate(45deg); top: $line-distance;}
+  20% {transform: rotate(30deg); top: ($line-distance - 1px);}
+  40% {transform: rotate(20deg); top: ($line-distance - 2px);}
+  60% {transform: rotate(10deg); top: ($line-distance - 3px);}
+  80% {transform: rotate(5deg); top: ($line-distance - 5px);}
+  100% {transform: rotate(0deg); top: 0px;}
+}
+
+@keyframes fade-close-line-2 {
+  0% {opacity: 0}
+  50% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes fade-close-line-3 {
+  0% {transform: rotate(-45deg); top: $line-distance;}
+  20% {transform: rotate(-30deg); top: ($line-distance + 1px);}
+  40% {transform: rotate(-20deg); top: ($line-distance + 2px);}
+  60% {transform: rotate(-10deg); top: ($line-distance + 3px);}
+  80% {transform: rotate(-5deg); top: ($line-distance + 5px);}
+  100% {transform: rotate(0deg); top: ($line-distance * 2);}
+}
