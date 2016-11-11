@@ -5,7 +5,7 @@ var gulp   = require('gulp'),
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function () {
-  gulp.src('styles/sass/**/*.scss')
+  gulp.src('examples/**/*.scss')
     .pipe(sass())
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
@@ -15,6 +15,6 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', ['sass'], function () {
-  gulp.watch('styles/sass/*.scss', ['sass']);
-  gulp.watch('styles/sass/**/*.scss', ['sass']);
+  gulp.watch('/*.scss', ['sass']);
+  gulp.watch('/**/*.scss', ['sass']);
 });
