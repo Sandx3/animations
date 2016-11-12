@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c72e094-fe02-4ff4-aada-dffb3332cda3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/hamburger-menu/types/_slide.scss" afterPath="$PROJECT_DIR$/examples/hamburger-menu/types/_slideLeft.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hamburger-menu/app.js" afterPath="$PROJECT_DIR$/examples/hamburger-menu/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hamburger-menu/hamburger-menu.scss" afterPath="$PROJECT_DIR$/examples/hamburger-menu/hamburger-menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hamburger-menu/html.html" afterPath="$PROJECT_DIR$/examples/hamburger-menu/html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hamburger-menu/types/_arrow.scss" afterPath="$PROJECT_DIR$/examples/hamburger-menu/types/_arrow.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hamburger-menu/types/_fade.scss" afterPath="$PROJECT_DIR$/examples/hamburger-menu/types/_fade.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/fullpagejs-library-test/fullpagejs.scss" afterPath="$PROJECT_DIR$/examples/fullpagejs-library-test/fullpagejs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/fullpagejs-library-test/index.html" afterPath="$PROJECT_DIR$/examples/fullpagejs-library-test/index.html" />
     </list>
     <ignored path="Animation components.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,71 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="html.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/html.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/fullpagejs-library-test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+            <state relative-caret-position="377">
+              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_slideLeft.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_slideLeft.scss">
+      <file leaf-file-name="fullpagejs.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/fullpagejs-library-test/fullpagejs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_fade.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_fade.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_slideRight.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_slideRight.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="87" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_arrow.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_arrow.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hamburger-menu.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/hamburger-menu.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+            <state relative-caret-position="217">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -124,7 +72,6 @@
         <option value="$PROJECT_DIR$/sass/hamburger-menu.scss" />
         <option value="$PROJECT_DIR$/hamburger-menu/style.css" />
         <option value="$PROJECT_DIR$/styles/sass/hamburger-menu.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/styles/sass/zoom-image-hover.scss" />
         <option value="$PROJECT_DIR$/fullpagejs-library-test/app.js" />
         <option value="$PROJECT_DIR$/fullpagejs-library-test/fullpagejs.scss" />
@@ -134,8 +81,6 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/examples/zoom-image-hover/index.html" />
         <option value="$PROJECT_DIR$/examples/fullpagejs-library-test/app.js" />
-        <option value="$PROJECT_DIR$/examples/fullpagejs-library-test/fullpagejs.scss" />
-        <option value="$PROJECT_DIR$/examples/fullpagejs-library-test/index.html" />
         <option value="$PROJECT_DIR$/examples/hamburger-menu/types/fade.scss" />
         <option value="$PROJECT_DIR$/styles/reset.css" />
         <option value="$PROJECT_DIR$/examples/hamburger-menu/types/_slide.scss" />
@@ -146,6 +91,9 @@
         <option value="$PROJECT_DIR$/examples/hamburger-menu/types/_fade.scss" />
         <option value="$PROJECT_DIR$/examples/hamburger-menu/types/_arrow.scss" />
         <option value="$PROJECT_DIR$/examples/hamburger-menu/hamburger-menu.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/examples/fullpagejs-library-test/index.html" />
+        <option value="$PROJECT_DIR$/examples/fullpagejs-library-test/fullpagejs.scss" />
       </list>
     </option>
   </component>
@@ -188,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,20 +164,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Animation components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Animation components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -249,34 +182,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hamburger-menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Animation components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Animation components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hamburger-menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="types" />
+              <option name="myItemId" value="fullpagejs-library-test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -373,24 +285,26 @@
       <updated>1478769983032</updated>
       <workItem from="1478769984224" duration="6482000" />
       <workItem from="1478878845575" duration="23057000" />
+      <workItem from="1478957375787" duration="59000" />
+      <workItem from="1478957452488" duration="916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29539000" />
+    <option name="totallyTimeSpent" value="30514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2335821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -418,11 +332,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_slideLeft.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_fade.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_slideRight.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="87" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_arrow.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/hamburger-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/zoom-image-hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -430,7 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -438,7 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -446,7 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2014">
           <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -454,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -466,18 +433,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hamburger-menu/style.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/zoom-image-hover/zoom-image-hover.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -485,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -511,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,23 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/fullpagejs-library-test/fullpagejs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/fullpagejs-library-test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,23 +515,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_slideRight.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1539">
           <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="87" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_fade.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="608">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_arrow.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/hamburger-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -607,30 +550,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/types/_arrow.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="152">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        <state relative-caret-position="491">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/hamburger-menu/hamburger-menu.scss">
+    <entry file="file://$PROJECT_DIR$/examples/fullpagejs-library-test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        <state relative-caret-position="377">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/fullpagejs-library-test/fullpagejs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding />
         </state>
       </provider>

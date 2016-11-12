@@ -11,20 +11,9 @@
 
 <div id="fullpage">
     <div class="section">
-        <div class="text__container">
-            <p class="text">Hello</p>
-        </div>
-    </div>
-    <div class="section">
-        <div class="slide">
+        <div class="slide" data-anchor="hello">
             <div class="text__container">
-                <div>
-                    <p class="text">World</p>
-                    <div class="link__container">
-                        <a class="link" href="#world/slide-1">Slide 1</a>
-                        <a class="link" href="#world/slide-2">Slide 2</a>
-                    </div>
-                </div>
+                <p class="text">Hello</p>
             </div>
         </div>
         <div class="slide" data-anchor="slide-1">
@@ -37,6 +26,36 @@
                 <p class="text">SLIDE 2</p>
             </div>
         </div>
+    </div>
+    <div class="section">
+        <div class="slide" data-anchor="world">
+            <div class="text__container">
+                <p class="text">World</p>
+            </div>
+        </div>
+        <div class="slide" data-anchor="slide-3">
+            <div class="text__container">
+                <p class="text">SLIDE 3</p>
+            </div>
+        </div>
+        <div class="slide" data-anchor="slide-4">
+            <div class="text__container">
+                <p class="text">SLIDE 4</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav">
+    <div class="nav__container--element">
+        <div class="element"><a class="element--link" href="#hello/hello">Hello</a></div>
+        <div class="element"><a class="element--link" href="#hello/slide-1">Slide 1</a></div>
+        <div class="element"><a class="element--link" href="#hello/slide-2">Slide 2</a></div>
+    </div>
+    <div class="nav__container--element">
+        <div class="element"><a href="#world/world" class="element--link">World</a></div>
+        <div class="element"><a href="#world/slide-3" class="element--link">Slide 3</a></div>
+        <div class="element"><a href="#world/slide-4" class="element--link">Slide 4</a></div>
     </div>
 </div>
 

@@ -23,3 +23,25 @@
   text-decoration: none;
   color: #7ebb6e;
 }
+
+.nav {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.element {
+  display: inline-block;
+  width: 60px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.element--link {
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+}

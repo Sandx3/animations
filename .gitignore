@@ -6,6 +6,7 @@
 
 # Dependency directory
 node_modules/
+.idea/**/*
 
 ### Composer ###
 composer.phar
@@ -27,4 +28,4 @@ styles/css
 ### Debugbar ###
 storage/debugbar
 
-.idea/
+
