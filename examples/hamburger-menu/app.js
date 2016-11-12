@@ -18,6 +18,42 @@ $(document).ready(function() {
     }
   })
 
+  $('#slideLeftButton').click(function () {
+    if ($('#slideLeftLine1').hasClass('button--slideLeft--open-line1') && $('#slideLeftLine3').hasClass('button--slideLeft--open-line3')) {
+      $('#slideLeftLine1').removeClass('button--slideLeft--open-line1');
+      $('#slideLeftLine1').addClass('button--slideLeft--close-line1');
+      $('#slideLeftLine2').removeClass('button--slideLeft--open-line2');
+      $('#slideLeftLine2').addClass('button--slideLeft--close-line2');
+      $('#slideLeftLine3').removeClass('button--slideLeft--open-line3');
+      $('#slideLeftLine3').addClass('button--slideLeft--close-line3');
+    } else {
+      $('#slideLeftLine1').addClass('button--slideLeft--open-line1');
+      $('#slideLeftLine1').removeClass('button--slideLeft--close-line1');
+      $('#slideLeftLine2').addClass('button--slideLeft--open-line2');
+      $('#slideLeftLine2').removeClass('button--slideLeft--close-line2');
+      $('#slideLeftLine3').addClass('button--slideLeft--open-line3');
+      $('#slideLeftLine3').removeClass('button--slideLeft--close-line3');
+    }
+  })
+
+  $('#slideRightButton').click(function () {
+    if ($('#slideRightLine1').hasClass('button--slideRight--open-line1') && $('#slideRightLine3').hasClass('button--slideRight--open-line3')) {
+      $('#slideRightLine1').removeClass('button--slideRight--open-line1');
+      $('#slideRightLine1').addClass('button--slideRight--close-line1');
+      $('#slideRightLine2').removeClass('button--slideRight--open-line2');
+      $('#slideRightLine2').addClass('button--slideRight--close-line2');
+      $('#slideRightLine3').removeClass('button--slideRight--open-line3');
+      $('#slideRightLine3').addClass('button--slideRight--close-line3');
+    } else {
+      $('#slideRightLine1').addClass('button--slideRight--open-line1');
+      $('#slideRightLine1').removeClass('button--slideRight--close-line1');
+      $('#slideRightLine2').addClass('button--slideRight--open-line2');
+      $('#slideRightLine2').removeClass('button--slideRight--close-line2');
+      $('#slideRightLine3').addClass('button--slideRight--open-line3');
+      $('#slideRightLine3').removeClass('button--slideRight--close-line3');
+    }
+  })
+
   $('#arrowButton').click(function () {
     if ($('#arrowLine1').hasClass('button--arrow--open-line1') && $('#arrowLine3').hasClass('button--arrow--open-line3')) {
       $('#arrowLine1').removeClass('button--arrow--open-line1');

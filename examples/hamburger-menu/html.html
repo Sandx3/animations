@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport">
     <title>Hamburger menu sample</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="../../styles/reset.css">
@@ -9,40 +10,60 @@
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="title__container">
             <h1 class="title">
                 My hamburger button animations
             </h1>
         </div>
         <div class="button__container">
-            <div id="fadeButton" class="button">
-                <div id="fadeLine1" class="line line--1"></div>
-                <div id="fadeLine2" class="line line--2"></div>
-                <div id="fadeLine3" class="line line--3"></div>
+            <div class="button__wrapper">
+                <div class="button--overflow">
+                    <div id="fadeButton" class="button">
+                        <div id="fadeLine1" class="line line--1"></div>
+                        <div id="fadeLine2" class="line line--2"></div>
+                        <div id="fadeLine3" class="line line--3"></div>
+                    </div>
+                </div>
+                <p class="text">
+                    Fade
+                </p>
             </div>
-            <p class="text">
-                Fade
-            </p>
-        </div>
-        <div class="button__container">
-            <div id="slideButton" class="button">
-                <div id="slideLine1" class="line line--1"></div>
-                <div id="slideLine2" class="line line--2"></div>
-                <div id="slideLine3" class="line line--3"></div>
+            <div class="button__wrapper">
+                <div class="button--overflow">
+                    <div id="slideLeftButton" class="button">
+                        <div id="slideLeftLine1" class="line line--1"></div>
+                        <div id="slideLeftLine2" class="line line--2"></div>
+                        <div id="slideLeftLine3" class="line line--3"></div>
+                    </div>
+                </div>
+                <p class="text">
+                    Slide-left
+                </p>
             </div>
-            <p class="text">
-                Slide
-            </p>
-        </div>
-        <div class="button__container">
-            <div id="arrowButton" class="button">
-                <div id="arrowLine1" class="line line--1"></div>
-                <div id="arrowLine2" class="line line--2"></div>
-                <div id="arrowLine3" class="line line--3"></div>
+            <div class="button__wrapper">
+                <div class="button--overflow">
+                    <div id="slideRightButton" class="button">
+                        <div id="slideRightLine1" class="line line--1"></div>
+                        <div id="slideRightLine2" class="line line--2"></div>
+                        <div id="slideRightLine3" class="line line--3"></div>
+                    </div>
+                </div>
+                <p class="text">
+                    Slide-right
+                </p>
             </div>
-            <p class="text">
-                Arrow
-            </p>
+            <div class="button__wrapper">
+                <div class="button--overflow">
+                    <div id="arrowButton" class="button">
+                        <div id="arrowLine1" class="line line--1"></div>
+                        <div id="arrowLine2" class="line line--2"></div>
+                        <div id="arrowLine3" class="line line--3"></div>
+                    </div>
+                </div>
+                <p class="text">
+                    Arrow
+                </p>
+            </div>
         </div>
     </div>
 </body>
