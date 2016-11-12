@@ -1,39 +1,40 @@
-.button--fade--open-line1 {
-  animation: fade-open-line-1 .4s;
+.button--slideRight--open-line1 {
+  animation: slideRight-open-line-1 .4s;
   animation-timing-function: ease-out;
   transform: rotate(45deg);
   top: ($line-distance + $top-distance);
 }
 
-.button--fade--open-line2 {
-  animation: fade-open-line-2 .4s;
+.button--slideRight--open-line2 {
+  animation: slideRight-open-line-2 .4s;
   animation-timing-function: ease-out;
-  opacity: 0;
+  right: (0 - $hamburger-size);
 }
 
-.button--fade--open-line3 {
-  animation: fade-open-line-3 .4s;
+.button--slideRight--open-line3 {
+  animation: slideRight-open-line-3 .4s;
   animation-timing-function: ease-out;
   transform: rotate(-45deg);
   top: ($line-distance + $top-distance);
 }
 
-.button--fade--close-line1 {
-  animation: fade-close-line-1 .4s;
+.button--slideRight--close-line1 {
+  animation: slideRight-close-line-1 .4s;
   animation-timing-function: ease-out;
 }
 
-.button--fade--close-line2 {
-  animation: fade-close-line-2 .4s;
+.button--slideRight--close-line2 {
+  animation: slideRight-close-line-2 .4s;
+  animation-timing-function: ease-out;
+  right: ($hamburger-size - $hamburger-size);
+}
+
+.button--slideRight--close-line3 {
+  animation: slideRight-close-line-3 .4s;
   animation-timing-function: ease-out;
 }
 
-.button--fade--close-line3 {
-  animation: fade-close-line-3 .4s;
-  animation-timing-function: ease-out;
-}
-
-@keyframes fade-open-line-1 {
+@keyframes slideRight-open-line-1 {
   0% {transform: rotate(0deg); top: ($top-distance);}
   20% {transform: rotate(5deg); top: (($line-distance + $top-distance) - 5px);}
   40% {transform: rotate(10deg); top: (($line-distance + $top-distance) - 3);}
@@ -42,12 +43,16 @@
   100% {transform: rotate(45deg); top: ($line-distance + $top-distance)}
 }
 
-@keyframes fade-open-line-2 {
-  0% {opacity: 1}
-  20% {opacity: 0}
+@keyframes slideRight-open-line-2 {
+  0% {right: ($hamburger-size - $hamburger-size)}
+  20% {right: ($hamburger-size - ($hamburger-size + 5px));}
+  40% {right: ($hamburger-size - ($hamburger-size + 10px));}
+  60% {right: ($hamburger-size - ($hamburger-size + 15px));}
+  80% {right: ($hamburger-size - ($hamburger-size + 20px));}
+  100% {right: ($hamburger-size - ($hamburger-size + 25px));}
 }
 
-@keyframes fade-open-line-3 {
+@keyframes slideRight-open-line-3 {
   0% {transform: rotate(0deg); top: ((($line-distance + $top-distance) * 2) - $top-distance);}
   20% {transform: rotate(-5deg); top: (($line-distance + $top-distance) + 5px);}
   40% {transform: rotate(-10deg); top: (($line-distance + $top-distance) + 3px);}
@@ -56,7 +61,7 @@
   100% {transform: rotate(-45deg); top: ($line-distance + $top-distance);}
 }
 
-@keyframes fade-close-line-1 {
+@keyframes slideRight-close-line-1 {
   0% {transform: rotate(45deg); top: ($line-distance + $top-distance);}
   20% {transform: rotate(30deg); top: (($line-distance + $top-distance) - 1px);}
   40% {transform: rotate(20deg); top: (($line-distance + $top-distance) - 2px);}
@@ -65,13 +70,16 @@
   100% {transform: rotate(0deg); top: $top-distance;}
 }
 
-@keyframes fade-close-line-2 {
-  0% {opacity: 0}
-  50% {opacity: 0}
-  100% {opacity: 1}
+@keyframes slideRight-close-line-2 {
+  0% {right: ($hamburger-size - ($hamburger-size + 25px));}
+  20% {right: ($hamburger-size - ($hamburger-size + 20px));}
+  40% {right: ($hamburger-size - ($hamburger-size + 15px));}
+  60% {right: ($hamburger-size - ($hamburger-size + 10px));}
+  80% {right: ($hamburger-size - ($hamburger-size + 5px));}
+  100% {right: ($hamburger-size - $hamburger-size)}
 }
 
-@keyframes fade-close-line-3 {
+@keyframes slideRight-close-line-3 {
   0% {transform: rotate(-45deg); top: ($line-distance + $top-distance);}
   20% {transform: rotate(-30deg); top: (($line-distance + $top-distance) + 1px);}
   40% {transform: rotate(-20deg); top: (($line-distance + $top-distance) + 2px);}
