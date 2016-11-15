@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blur backgrounds</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/css/backgroundblur-library-test/backgroundblur.css">
+</head>
+<body>
+
+<div id="myDiv" class="header"></div>
+<div class="button__container">
+    <button class="toggle-button" onclick="image1Toggle()">Image 1</button>
+    <button class="toggle-button" onclick="image2Toggle()">Image 2</button>
+</div>
+
+<!-- The library do not resize image width on resizing window -->
+
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="lib/background-blur.js"></script>
+<script>
+
+    $('#myDiv').backgroundBlur({
+        imageURL: 'http://wallpapercave.com/wp/C8buKZC.jpg',
+        blurAmount: 5,
+        imageClass: 'bg-blur',
+        duration: 1000,
+        endOpacity: 1
+    });
+
+    function image1Toggle() {
+        $('#myDiv').backgroundBlur('http://wallpapercave.com/wp/C8buKZC.jpg')
+    }
+
+    function image2Toggle() {
+        $('#myDiv').backgroundBlur('https://wallpaperscraft.com/image/cat_face_glasses_thick_65455_1920x1080.jpg')
+    }
+
+</script>
+</html>
