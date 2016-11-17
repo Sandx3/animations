@@ -1,29 +1,30 @@
-.unicorn {
-  opacity: 1;
+* {
+  background-color: #F2E394;
+  font-family: 'Open Sans', sans-serif;
+  color: #588C7E;
+}
+
+.svg__container {
+  text-align: center;
+}
+
+.placehold-div {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.animation {
   stroke-dasharray: 1676;
   stroke-dashoffset: 1676;
   animation: offset 2s ease-out forwards;
-}
-
-.unicorn--disable {
-  opacity: 0;
 }
 
 @keyframes offset {
   to {
     stroke-dashoffset: 0;
   }
-}
-
-.firstDiv, .secondDiv, .thirdDiv, .fourthDiv {
-  height: 500px;
-  width: 600px;
-}
-
-.firstDiv, .thirdDiv {
-  background-color: #ed6969;
-}
-
-.secondDiv, .fourthDiv {
-  background-color: antiquewhite;
 }
