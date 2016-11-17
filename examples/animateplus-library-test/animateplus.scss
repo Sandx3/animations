@@ -1,0 +1,38 @@
+* {
+  background-color: lightblue;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+  background-color: salmon;
+  border-radius: 50%;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 130px auto;
+  background-color: navajowhite;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: lightcoral;
+
+  &:hover {
+     background-color: darken(lightcoral, 5);
+   }
+  &:active {
+    background-color: darken(lightcoral, 10);
+  }
+}
+
+.btn__container {
+  margin: 0 auto;
+  width: 100px;
+}
