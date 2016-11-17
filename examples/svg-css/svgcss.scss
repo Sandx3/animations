@@ -1,0 +1,11 @@
+.unicorn {
+  stroke-dasharray: 1676;
+  stroke-dashoffset: 1676;
+  animation: offset 5s linear forwards;
+}
+
+@keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
