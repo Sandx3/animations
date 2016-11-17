@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Vivus</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/css/vivus-library-test/vivus.css">
+</head>
+<body>
+
+<div>
+    <svg id="my-svg" width="175" height="161">
+        <g>
+            <path stroke-width="1.5" stroke="#000" fill="none" d="m84.907741,44.193873c30.92214,-85.053667 152.076096,0 0,109.354715c-152.076096,-109.354715 -30.92214,-194.408382 0,-109.354715z"></path
+        </g>
+    </svg>
+</div>
+
+</body>
+<script src="lib/vivus.js"></script>
+<script>
+    new Vivus('my-svg', {type: 'scenario-sync', duration: 100});
+</script>
+</html>
