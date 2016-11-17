@@ -1,11 +1,29 @@
 .unicorn {
+  opacity: 1;
   stroke-dasharray: 1676;
   stroke-dashoffset: 1676;
-  animation: offset 5s linear forwards;
+  animation: offset 2s ease-out forwards;
+}
+
+.unicorn--disable {
+  opacity: 0;
 }
 
 @keyframes offset {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.firstDiv, .secondDiv, .thirdDiv, .fourthDiv {
+  height: 500px;
+  width: 600px;
+}
+
+.firstDiv, .thirdDiv {
+  background-color: #ed6969;
+}
+
+.secondDiv, .fourthDiv {
+  background-color: antiquewhite;
 }
