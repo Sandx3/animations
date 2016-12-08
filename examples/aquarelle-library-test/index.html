@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aquarelle</title>
+</head>
+<body>
+
+<img id="image" src="tosia.jpg" alt="Tosia">
+
+</body>
+
+<script src="lib/three.js"></script>
+<script src="lib/Aquarelle.js"></script>
+<script src="lib/EffectComposer.js"></script>
+<script src="lib/ClearPass.js"></script>
+<script src="lib/AquarellePass.js"></script>
+<script src="lib/ShaderPass.js"></script>
+<script src="lib/CopyShader.js"></script>
+<script src="https://bl.ocks.org/mbostock/raw/4241134/d3.geom.contour.min.js"></script>
+<script>
+    var image = document.getElementById('image');
+    var aquarelle = new Aquarelle(image, 'mask.png', {
+        autoplay: true,
+        fromAmplitude: 50,
+        duration: 9000,
+        loop: true
+    });
+
+    aquarelle.addEventListener('created', function() {
+        var canvas = this.getCanvas();
+        image.parentNode.insertBefore(canvas, image.nextSibling);
+        image.parentNode.removeChild(image);
+    });
+
+</script>
+
+</html>
